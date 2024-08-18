@@ -2567,9 +2567,10 @@ ul {
 }
 
 .main-slider-three__title {
-  font-size: 80px;
+  font-size: 50px;
   line-height: 80px;
   color: var(--ambed-black, #6ba452);
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.621);
   font-weight: 900;
   text-transform: uppercase;
   margin-top: 21px;
@@ -6842,7 +6843,7 @@ ul {
 .feature-three {
   position: relative;
   display: block;
-  background-color: var(--ambed-black, #6ba452);
+  background-color: lightgrey;
   z-index: 1;
 }
 
@@ -6925,7 +6926,7 @@ ul {
   justify-content: center;
   height: 100px;
   width: 100px;
-  background-color: var(--ambed-base, #a47c68);
+  background-color: #6f9c4c;
   border-radius: 50%;
   margin: 0 auto;
   z-index: 1;
@@ -6988,7 +6989,7 @@ ul {
 }
 
 .feature-three__top-icon-list li:hover .feature-three__top-title a {
-  color: var(--ambed-base, #a47c68);
+  color: var(--ambed-base, #6f9c4c);
 }
 
 .feature-three__bottom {
@@ -7098,7 +7099,7 @@ ul {
   height: 186px;
   width: 180px;
   content: "";
-  background-color: var(--ambed-base, #a47c68);
+  background-color: var(--ambed-black, #6ba452);
   border-top-right-radius: 52px;
   border-top-left-radius: 52px;
   border-bottom-right-radius: 52px;
