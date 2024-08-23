@@ -3234,7 +3234,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--ambed-black, #6ba452);
+  /* background-color: var(--ambed-black, #6ba452); */
   z-index: 1;
 }
 
@@ -3247,7 +3247,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: var(--ambed-black, #6ba452);
+  /* background-color: var(--ambed-black, #6ba452); */
   mix-blend-mode: luminosity;
   opacity: .08;
   z-index: 1;
@@ -6843,7 +6843,7 @@ ul {
 .feature-three {
   position: relative;
   display: block;
-  background-color: lightgrey;
+  background-color: #9e7c69;
   z-index: 1;
 }
 

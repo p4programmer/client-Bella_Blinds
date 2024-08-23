@@ -808,8 +808,8 @@
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
     .section-title__title {
-        font-size: 35px;
-        line-height: 43px;
+        font-size: 25px;
+        line-height: 35px;
     }
 
     .section-title__title br {
