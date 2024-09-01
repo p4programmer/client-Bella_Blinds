@@ -4389,8 +4389,8 @@ ul {
 }
 
 .testimonial-one__text-2 {
-  font-size: 18px;
-  line-height: 34px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .testimonial-one__client-info {
@@ -7320,14 +7320,14 @@ ul {
 
 .more-services-two__sub-title {
   font-size: 16px;
-  color: #c1b8b3;
+  color: #ffffff;
 }
 
 .more-services-two__title {
   font-size: 30px;
   color: var(--ambed-white, #ffffff);
   font-weight: 700;
-  margin-top: 13px;
+  margin-top: 4px;
   line-height: 36px;
 }
 
