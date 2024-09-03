@@ -138,6 +138,11 @@ ul {
   padding-right: 15px;
 }
 
+.contact-form-heading {
+  font-weight: 400 !important;
+  color: #000000;
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1200px;
@@ -5175,7 +5180,7 @@ ul {
 .site-footer__bottom {
   position: relative;
   display: block;
-  background-color: #2f2a27;
+  background-color: #75a352;
 }
 
 .site-footer__bottom-inner {
@@ -5187,11 +5192,11 @@ ul {
 
 .site-footer__bottom-text {
   font-size: 15px;
-  color: #c2b9b4;
+  color: #000000;
 }
 
 .site-footer__bottom-text a {
-  color: #c2b9b4;
+  color: #000000;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -7970,8 +7975,9 @@ ul {
 }
 
 .contact-one__info-box p {
-  font-size: 16px;
-  color: #c1b8b3;
+  font-size: 22px;
+  color: #000000;
+  font-weight: 600;
 }
 
 .contact-one__info-box h5 {
