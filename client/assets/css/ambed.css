@@ -1133,7 +1133,7 @@ ul {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--ambed-black, #6ba452);
+  background-color: #3c6928;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -8781,7 +8781,7 @@ ul {
 .blog-details {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  /* padding: 40px 0 120px; */
 }
 
 .blog-details__left {
