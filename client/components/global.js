@@ -254,6 +254,55 @@ class Products extends HTMLElement {
 }
 window.customElements.define('products-section', Products);
 
+class ProductSidebar extends HTMLElement {
+    constructor() {
+        super();
+        this.innerHTML =
+            `    
+            <div class="sidebar">
+                <div class="sidebar__single sidebar__category">
+                    <h3 class="sidebar__title">Products</h3>
+                    <ul class="sidebar__category-list list-unstyled">
+                        <li><a href="/roller-shades">Roller Shades <span class="fa fa-angle-right"></span></a>
+                        </li>
+                        <li><a href="/zebra-shades">Zebra Shadees <span class="fa fa-angle-right"></span></a>
+                        </li>
+                        <li><a href="/venetian Blinds">Venetian Blinds <span
+                            class="fa fa-angle-right"></span></a></li>
+                        <li><a href="vertical-blinds">Vertical Blinds <span
+                            class="fa fa-angle-right"></span></a></li>
+                        <li><a href="smart-blinds">Smart Blinds <span class="fa fa-angle-right"></span></a></li>
+        
+                    </ul>
+                </div>
+                <div class="sidebar__single sidebar__tags">
+                    <h3 class="sidebar__title">Tags</h3>
+                    <div class="sidebar__tags-list">
+                        <a href="/roller-shades">Blackout Shades</a>
+                        <a href="/smart-blinds">Smart Shades</a>
+                        <a href="/venetian-blinds">Faux wood </a>
+                        <a href="/smart-blinds">Smart Home Integration</a>
+                        <a href="/contact">Home Consultation</a>
+                    </div>
+                </div>
+                <div class="sidebar__single sidebar__category">
+                    <h3 class="sidebar__title">Pages</h3>
+                    <ul class="sidebar__category-list list-unstyled">
+                        <li><a href="/">Home<span class="fa fa-angle-right"></span></a>
+                        </li>
+                        <li><a href="/about">About <span class="fa fa-angle-right"></span></a>
+                        </li>
+                        <li><a href="/contact">Contact <span class="fa fa-angle-right"></span></a></li>
+                    </ul>
+                </div>
+        
+            </div>
+        
+ `;
+    }
+}
+window.customElements.define('product-sidebar-section', ProductSidebar);
+
 class ContactForm extends HTMLElement {
     constructor() {
         super();
