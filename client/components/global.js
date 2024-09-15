@@ -523,3 +523,4 @@ class Footer extends HTMLElement {
     }
 }
 window.customElements.define('footer-section', Footer);
+
