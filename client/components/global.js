@@ -81,7 +81,7 @@ class Header extends HTMLElement {
                                 <li>
                                     <a href="/about">About </a>
                                 </li>
-                                <li class="dropdown">
+                                <li >
                                     <a href="/projects">Projects</a>
                                 </li>
                                 <li><a href="/contact">Contact </a></li>
@@ -523,4 +523,48 @@ class Footer extends HTMLElement {
     }
 }
 window.customElements.define('footer-section', Footer);
+
+class Project extends HTMLElement {
+    constructor() {
+        super();
+        const img = this.getAttribute('img')
+        const title = this.getAttribute('title')
+        this.innerHTML =
+            `
+        <section class="blog-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        <!--Blog One Start-->
+                        <div class="blog-one__single">
+                                <img src=${img} alt="">
+                                <a href="">
+                                    <span class="blog-one__plus"></span>
+                                </a>
+                            <div class="blog-one__content">
+                                <div class="blog-one__date">
+                                    <p>20 Feb, 2022</p>
+                                </div>
+                                <ul class="list-unstyled blog-one__meta">
+                                    <li><a href=""><i class="far fa-user-circle"></i> by Admin </a>
+                                    </li>
+                                    <li><span>/</span></li>
+                                    <li><a href=""><i class="far fa-comments"></i> 02 Comments</a>
+                                    </li>
+                                </ul>
+                                <h3 class="blog-one__title"><a href="">
+                                    ${title}
+                                </a></h3>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+ `;
+    }
+}
+window.customElements.define('project-section', Project);
+
 
