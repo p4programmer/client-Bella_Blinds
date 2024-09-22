@@ -528,32 +528,31 @@ class Project extends HTMLElement {
     constructor() {
         super();
         const img = this.getAttribute('img')
-        const title = this.getAttribute('title')
+        const projectName = this.getAttribute('projectName')
         this.innerHTML =
             `
         <section class="blog-one">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="100ms">
-                        <!--Blog One Start-->
+                    <div class="col-xl-12 col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="100ms">
                         <div class="blog-one__single">
-                                <img src=${img} alt="">
+                                <img src=${img} width="100%" alt="">
                                 <a href="">
                                     <span class="blog-one__plus"></span>
                                 </a>
                             <div class="blog-one__content">
                                 <div class="blog-one__date">
-                                    <p>20 Feb, 2022</p>
+                                    <p>${projectName}</p>
                                 </div>
                                 <ul class="list-unstyled blog-one__meta">
-                                    <li><a href=""><i class="far fa-user-circle"></i> by Admin </a>
+                                    <li><a href=""><i class="far fa-user-circle"></i> by Bella Blinds </a>
                                     </li>
                                     <li><span>/</span></li>
-                                    <li><a href=""><i class="far fa-comments"></i> 02 Comments</a>
+                                    <li><a href="">2024</a>
                                     </li>
                                 </ul>
                                 <h3 class="blog-one__title"><a href="">
-                                    ${title}
+                                    ${projectName}
                                 </a></h3>
                             </div>
                         </div>
