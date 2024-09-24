@@ -375,8 +375,8 @@ class ContactForm extends HTMLElement {
                                 </li>
                                 <li>
                                     <div class="contact-one__info-box">
-                                        <p>Surrey</p>
-                                        <h5>39775 188 St Unit #302, Surrey, BC</h5>
+                                        <p>Richmond</p>
+                                        <h5>12520 Vickers Way Richmond, BC, V6V 1H9</h5>
                                     </div>
                                 </li>
                             </ul>
@@ -492,8 +492,9 @@ class Footer extends HTMLElement {
                                             <span class="icon-location"></span>
                                         </div>
                                         <div class="text">
-                                            <h5>Surrey</h5>
-                                            <p>39775 188 St Unit #302, Surrey, BC</p>
+                                            <h5>Richmond</h5>
+                                            <p>12520  Vickers Way 
+                                                Richmond, BC, V6V 1H9</p>
                                         </div>
                                     </li>
                                 </ul>
