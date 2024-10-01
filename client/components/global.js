@@ -74,7 +74,8 @@ class Header extends HTMLElement {
                                         <li><a href="/zebra-shades">Zebra Shades</a></li>
                                         <li><a href="/venetian">Venetian Blinds</a></li>
                                         <li><a href="/vertical-blinds">Vertical Blinds</a></li>
-                                        <li><a href="/smart-blinds">Smart blinds</a></li>
+                                        <li><a href="/smart-blinds">Smart Blinds</a></li>
+                                        <li><a href="/honeycomb-blinds">Honeycomb Blind</a></li>
 
                                     </ul>
                                 </li>
