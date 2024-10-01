@@ -273,6 +273,8 @@ class ProductSidebar extends HTMLElement {
                         <li><a href="vertical-blinds">Vertical Blinds <span
                             class="fa fa-angle-right"></span></a></li>
                         <li><a href="smart-blinds">Smart Blinds <span class="fa fa-angle-right"></span></a></li>
+                                                <li><a href="/honeycomb-blinds">Honeycomb Blinds <span class="fa fa-angle-right"></span></a></li>
+
         
                     </ul>
                 </div>
