@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bella Blinds - About</title>
+    <!-- favicons Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png" />
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest" />
+    <meta name="description" content=" Bella Blinds " />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/ambed.css" />
+    <link rel="stylesheet" href="assets/css/ambed-responsive.css" />
+
+    <style>
+        /* Preloader */
+        .preloader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 9999;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .preloader__image {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(0, 0, 0, 0.1);
+            border-top-color: #0274BD;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+    /* Video Section Enhancements */
+    .video-wrapper {
+        position: relative;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        margin-bottom: 30px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .video-wrapper video {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .video-wrapper:hover video {
+        transform: scale(1.05);
+    }
+
+    .video-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+        pointer-events: none; /* Prevent the overlay from blocking interaction */
+    }
+
+    .video-wrapper:hover .video-overlay {
+        opacity: 1;
+    }
+
+    .video-overlay i {
+        color: white;
+        font-size: 40px;
+    }
+</style>
+
+    </style>
+</head>
+<body class="custom-cursor">
+
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+
+    <div class="page-wrapper">
+
+        <header-section></header-section>
+
+         <!--Page Header Start-->
+         <section class="page-header mt-2">
+            <div class="page-header-bg" style="background-image: url(assets/images/team.jpg)"></div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="/">Home</a></li>
+                        <li><span>/</span></li>
+                        <li>About</li>
+                    </ul>
+                    <h2>About Bella Blinds</h2>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+
+        <!-- Why Choose Us Section Start -->
+        <section class="why-choose-us pt-5 pb-5">
+            <div class="container">
+                <h3 class="text-center mb-4">Why Choose Us</h3>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Designed for You, Crafted by Bella Blinds</h4>
+                        <p>At Bella Blinds, we create products with both functionality and style in mind. Our wide selection of materials, designs, and technology options ensures that your blinds are not just a window treatment, but a beautiful addition to your home.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Personalized Service</h4>
+                        <p>You're not just another customer; you're part of our community. We take the time to understand your vision and guide you through every step, from selecting the perfect blinds to professional installation.</p>
+                    </div>
+                </div>
+                <div class="row pt-4">
+                    <div class="col-md-6">
+                        <h4>Quality Products</h4>
+                        <p>We partner with top manufacturers to offer a diverse range of materials and designs, crafted to the highest standards of durability and style. Choose from eco-friendly options to the latest in smart home technology to enhance your home's comfort and efficiency.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/images/projects/logan.jpg" alt="Logan Project" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Why Choose Us Section End -->
+
+        <!-- Video Section Start -->
+<section class="video-section py-5" style="background-color: #f5f5f5;">
+    <div class="container">
+        <h3 class="text-center mb-5" style="font-size: 2rem; font-weight: bold; color: #0274BD;">Watch Our Customers Share Their Experience</h3>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+                    <video class="img-fluid" src="assets/images/videos/video1.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
+                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
+                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+                    <video class="img-fluid" src="assets/images/videos/video2.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
+                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
+                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+                    <video class="img-fluid" src="assets/images/videos/video3.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
+                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
+                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Video Section End -->
+
+
+
+
+        <footer-section></footer-section>
+
+    </div>
+
+    <mob-navbar-section></mob-navbar-section>
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <script src="components/global.js"></script>
+    <script src="assets/vendors/jquery/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendors/jarallax/jarallax.min.js"></script>
+    <script src="assets/vendors/jquery-ajaxchimp/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/vendors/jquery-appear/jquery.appear.min.js"></script>
+    <script src="assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js"></script>
+    <script src="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="assets/vendors/jquery-validate/jquery.validate.min.js"></script>
+    <script src="assets/vendors/nouislider/nouislider.min.js"></script>
+    <script src="assets/vendors/odometer/odometer.min.js"></script>
+    <script src="assets/vendors/swiper/swiper.min.js"></script>
+    <script src="assets/vendors/tiny-slider/tiny-slider.min.js"></script>
+    <script src="assets/vendors/wnumb/wNumb.min.js"></script>
+    <script src="assets/vendors/wow/wow.js"></script>
+    <script src="assets/vendors/isotope/isotope.js"></script>
+    <script src="assets/vendors/countdown/countdown.min.js"></script>
+    <script src="assets/vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendors/bxslider/jquery.bxslider.min.js"></script>
+    <script src="assets/vendors/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="assets/vendors/vegas/vegas.min.js"></script>
+    <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
+    <script src="assets/vendors/timepicker/timePicker.js"></script>
+    <script src="assets/vendors/circleType/jquery.circleType.js"></script>
+    <script src="assets/vendors/circleType/jquery.lettering.min.js"></script>
+
+
+
+
+    <!-- template js -->
+    <script src="assets/js/ambed.js"></script>
+
+
+    <!-- toolbar js -->
+    <script src="assets/vendors/toolbar/js/js.cookie.min.js"></script>
+    <script src="assets/vendors/toolbar/js/jQuery.style.switcher.min.js"></script>
+    <script src="assets/vendors/toolbar/js/toolbar.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+       
+     
