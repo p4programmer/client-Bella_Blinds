@@ -129,39 +129,78 @@
         </section>
         <!-- Why Choose Us Section End -->
 
-        <!-- Video Section Start -->
+     <!-- Video Section Start -->
 <section class="video-section py-5" style="background-color: #f5f5f5;">
     <div class="container">
-        <h3 class="text-center mb-5" style="font-size: 2rem; font-weight: bold; color: #0274BD;">Watch Our Customers Share Their Experience</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
-                    <video class="img-fluid" src="assets/images/videos/video1.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
-                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
-                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
-                    </div>
-                </div>
+        <h2 class="text-center mb-2">Watch Our Customers Share Their Experience</h2>
+        <p class="text-center mb-5" style="font-size: 1.1rem; color: #666;">
+            See how our products have transformed spaces and brought satisfaction to our customers.
+        </p>
+        
+        <!-- Masonry Layout Container -->
+        <div class="masonry-layout">
+            <!-- Video Cards -->
+            <div class="video-card">
+                <video src="assets/images/videos/video1.mp4" controls></video>
             </div>
-            <div class="col-md-4">
-                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
-                    <video class="img-fluid" src="assets/images/videos/video2.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
-                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
-                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
-                    </div>
-                </div>
+            <div class="video-card">
+                <video src="assets/images/videos/video2.mp4" controls></video>
             </div>
-            <div class="col-md-4">
-                <div class="video-wrapper position-relative mb-4" style="border-radius: 15px; overflow: hidden; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
-                    <video class="img-fluid" src="assets/images/videos/video3.mp4" controls style="border-radius: 15px; transition: transform 0.3s ease;"></video>
-                    <div class="video-overlay d-flex justify-content-center align-items-center position-absolute w-100 h-100" style="top: 0; left: 0; background: linear-gradient(135deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)); opacity: 0; transition: opacity 0.3s;">
-                        <i class="fas fa-play" style="font-size: 3rem; color: white;"></i>
-                    </div>
-                </div>
+            <div class="video-card">
+                <video src="assets/images/videos/video4.mp4" controls></video>
+            </div>
+            <div class="video-card">
+                <video src="assets/images/videos/video5.mp4" controls></video>
+            </div>
+            <div class="video-card">
+                <video src="assets/images/videos/video6.mp4" controls></video>
+            </div>
+            <div class="video-card">
+                <video src="assets/images/videos/video3.mp4" controls></video>
             </div>
         </div>
     </div>
 </section>
 <!-- Video Section End -->
+
+<style>
+.masonry-layout {
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+
+.video-card {
+    position: relative;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    break-inside: avoid;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+}
+
+.video-card video {
+    width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.video-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 992px) {
+    .masonry-layout {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 576px) {
+    .masonry-layout {
+        column-count: 1;
+    }
+}
+</style>
 
 
 
