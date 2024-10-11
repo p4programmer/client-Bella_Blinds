@@ -72,7 +72,7 @@ class Header extends HTMLElement {
                                     <ul>
                                         <li><a href="/roller-shades">Roller Shades</a></li>
                                         <li><a href="/zebra-shades">Zebra Shades</a></li>
-                                        <li><a href="/venetian">Venetian Blinds</a></li>
+                                        <li><a href="/venetian-blinds">Venetian Blinds</a></li>
                                         <li><a href="/vertical-blinds">Vertical Blinds</a></li>
                                         <li><a href="/smart-blinds">Smart Blinds</a></li>
                                         <li><a href="/honeycomb-blinds">Honeycomb Blind</a></li>
@@ -447,10 +447,9 @@ class Footer extends HTMLElement {
                             <div class="footer-widget__column footer-widget__explore clearfix">
                                 <h3 class="footer-widget__title">Pages</h3>
                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
-                                    <li><a href="about.html">Home</a></li>
-                                    <li><a href="contact.html">About</a></li>
-                                    <li><a href="team.html">Contact</a></li>
-                                    <li><a href="services.html">Our Services</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/about">About</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -458,11 +457,11 @@ class Footer extends HTMLElement {
                             <div class="footer-widget__column footer-widget__services clearfix">
                                 <h3 class="footer-widget__title">Products</h3>
                                 <ul class="footer-widget__services-list list-unstyled clearfix">
-                                    <li><a href="">Roller Shades</a></li>
-                                    <li><a href="">Zebra Shades</a></li>
-                                    <li><a href="">Venetian Blinds</a></li>
-                                    <li><a href="">Honeycomb Blinds</a></li>
-                                    <li><a href="">Smart Blinds</a></li>
+                                    <li><a href="/roller-shades">Roller Shades</a></li>
+                                    <li><a href="/zebra-shades">Zebra Shades</a></li>
+                                    <li><a href="/venetian-blinds">Venetian Blinds</a></li>
+                                    <li><a href="/honeycomb-blinds">Honeycomb Blinds</a></li>
+                                    <li><a href="/smart-blinds">Smart Blinds</a></li>
                                 </ul>
                             </div>
                         </div>
