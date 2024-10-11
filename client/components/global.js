@@ -65,7 +65,7 @@ class Header extends HTMLElement {
                             <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
                                 <li>
-                                    <a href="/l">Home </a>
+                                    <a href="/index">Home </a>
                                 </li>
                                 <li class="dropdown">
                                     <a href="#">Blinds & Shades </a>
@@ -291,7 +291,7 @@ class ProductSidebar extends HTMLElement {
                 <div class="sidebar__single sidebar__category">
                     <h3 class="sidebar__title">Pages</h3>
                     <ul class="sidebar__category-list list-unstyled">
-                        <li><a href="/">Home<span class="fa fa-angle-right"></span></a>
+                        <li><a href="/index">Home<span class="fa fa-angle-right"></span></a>
                         </li>
                         <li><a href="/about">About <span class="fa fa-angle-right"></span></a>
                         </li>
@@ -447,7 +447,7 @@ class Footer extends HTMLElement {
                             <div class="footer-widget__column footer-widget__explore clearfix">
                                 <h3 class="footer-widget__title">Pages</h3>
                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
-                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/index">Home</a></li>
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                 </ul>
