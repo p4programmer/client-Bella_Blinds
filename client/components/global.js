@@ -3,7 +3,7 @@ class Header extends HTMLElement {
         super();
         this.innerHTML =
             `
-               <header class="main-header-three clearfix">
+        <header class="main-header-three clearfix">
             <div class="main-header-three__top">
                 <div class="main-header-three__top-inner clearfix">
                     <div class="main-header-three__top-left">
@@ -406,13 +406,55 @@ class Map extends HTMLElement {
             `
                <section class="google-map mt-5">
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195409.47787654467!2d-122.958670964656!3d49.11964937769907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d0c13cf3ffff%3A0xa305fcb6f21b34b7!2sBella%20Custom%20Blinds%20-%20Surrey!5e1!3m2!1sen!2sca!4v1725338932081!5m2!1sen!2sca"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.4774748223267!2d-123.08710292351638!3d49.19109067137917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675a78ba4f4b9%3A0xb5785257892a4ea7!2s12520%20Vickers%20Way%2C%20Richmond%2C%20BC%20V6V%201H9!5e1!3m2!1sen!2sca!4v1728887865642!5m2!1sen!2sca"
                 class="google-map__one" allowfullscreen></iframe>
         </section>
  `;
     }
 }
 window.customElements.define('map-section', Map);
+
+class ServiceBadge extends HTMLElement {
+    constructor() {
+        super();
+        this.innerHTML =
+            `
+                    <section class="more-services-two mb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="more-services-two__single">
+                            <div class="more-services-two__img-box">
+                                <div class="more-services-two__icon">
+                                    <span class="icon-house"></span>
+                                </div>
+                            </div>
+                            <div class="more-services-two__content">
+                                <p class="more-services-two__sub-title">Custom Window Covering Solutions</p>
+                                <h3 class="more-services-two__title">Residential Custom Shades </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="more-services-two__single more-services-two__single-two">
+                            <div class="more-services-two__img-box">
+                                <div class="more-services-two__icon">
+                                    <span class="icon-apartment"></span>
+                                </div>
+                            </div>
+                            <div class="more-services-two__content">
+                                <p class="more-services-two__sub-title">Direct from the Factory </p>
+                                <h3 class="more-services-two__title">Commercial Projects</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+ `;
+    }
+}
+window.customElements.define('service-badge-section', ServiceBadge);
 
 class Footer extends HTMLElement {
     constructor() {
@@ -441,7 +483,7 @@ class Footer extends HTMLElement {
                                     <a href="#"><i class="fab fa-pinterest-p"></i></a>
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
                             <div class="footer-widget__column footer-widget__explore clearfix">
