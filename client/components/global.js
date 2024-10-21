@@ -38,7 +38,7 @@ class Header extends HTMLElement {
                     <div class="main-header-three__top-right">
                         <div class="main-header-three__top-right-content">
                             <ul class="list-unstyled main-header-three__top-right-menu">
-                                <li><a href="blog.html">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul>
                             <div class="main-header-three__top-right-social">
                                 <a href="#"><i class="fab fa-twitter"></i></a>
