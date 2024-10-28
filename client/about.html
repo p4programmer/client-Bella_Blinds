@@ -24,55 +24,56 @@
     <link rel="stylesheet" href="assets/css/ambed-responsive.css" />
 
     <style>
-        
-    /* Video Section Enhancements */
-    .video-wrapper {
-        position: relative;
-        overflow: hidden;
-        border-radius: 15px;
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        margin-bottom: 30px;
-        transition: transform 0.3s ease-in-out;
-    }
+        /* Video Section Enhancements */
+        .video-wrapper {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-bottom: 30px;
+            transition: transform 0.3s ease-in-out;
+        }
 
-    .video-wrapper video {
-        width: 100%;
-        height: auto;
-        transition: transform 0.3s ease-in-out;
-    }
+        .video-wrapper video {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
 
-    .video-wrapper:hover video {
-        transform: scale(1.05);
-    }
+        .video-wrapper:hover video {
+            transform: scale(1.05);
+        }
 
-    .video-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 0;
-        transition: opacity 0.3s ease;
-        cursor: pointer;
-        pointer-events: none; /* Prevent the overlay from blocking interaction */
-    }
+        .video-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: pointer;
+            pointer-events: none;
+            /* Prevent the overlay from blocking interaction */
+        }
 
-    .video-wrapper:hover .video-overlay {
-        opacity: 1;
-    }
+        .video-wrapper:hover .video-overlay {
+            opacity: 1;
+        }
 
-    .video-overlay i {
-        color: white;
-        font-size: 40px;
-    }
-</style>
+        .video-overlay i {
+            color: white;
+            font-size: 40px;
+        }
+    </style>
 
     </style>
 </head>
+
 <body class="custom-cursor">
 
     <div class="custom-cursor__cursor"></div>
@@ -86,8 +87,8 @@
 
         <header-section></header-section>
 
-         <!--Page Header Start-->
-         <section class="page-header mt-2">
+        <!--Page Header Start-->
+        <section class="page-header mt-2">
             <div class="page-header-bg" style="background-image: url(assets/images/team.jpg)"></div>
             <div class="container">
                 <div class="page-header__inner">
@@ -109,17 +110,23 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h4>Designed for You, Crafted by Bella Blinds</h4>
-                        <p>At Bella Blinds, we create products with both functionality and style in mind. Our wide selection of materials, designs, and technology options ensures that your blinds are not just a window treatment, but a beautiful addition to your home.</p>
+                        <p>At Bella Blinds, we create products with both functionality and style in mind. Our wide
+                            selection of materials, designs, and technology options ensures that your blinds are not
+                            just a window treatment, but a beautiful addition to your home.</p>
                     </div>
                     <div class="col-md-6">
                         <h4>Personalized Service</h4>
-                        <p>You're not just another customer; you're part of our community. We take the time to understand your vision and guide you through every step, from selecting the perfect blinds to professional installation.</p>
+                        <p>You're not just another customer; you're part of our community. We take the time to
+                            understand your vision and guide you through every step, from selecting the perfect blinds
+                            to professional installation.</p>
                     </div>
                 </div>
                 <div class="row pt-4">
                     <div class="col-md-6">
                         <h4>Quality Products</h4>
-                        <p>We partner with top manufacturers to offer a diverse range of materials and designs, crafted to the highest standards of durability and style. Choose from eco-friendly options to the latest in smart home technology to enhance your home's comfort and efficiency.</p>
+                        <p>We partner with top manufacturers to offer a diverse range of materials and designs, crafted
+                            to the highest standards of durability and style. Choose from eco-friendly options to the
+                            latest in smart home technology to enhance your home's comfort and efficiency.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="assets/images/projects/logan.jpg" alt="Logan Project" class="img-fluid">
@@ -129,78 +136,81 @@
         </section>
         <!-- Why Choose Us Section End -->
 
-     <!-- Video Section Start -->
-<section class="video-section py-5" style="background-color: #f5f5f5;">
-    <div class="container">
-        <h2 class="text-center mb-2">Watch Our Customers Share Their Experience</h2>
-        <p class="text-center mb-5" style="font-size: 1.1rem; color: #666;">
-            Discover the difference our products have made in real homes, bringing warmth, style, and comfort to every room. Our customers love sharing their transformations, from elegant blinds to smart shades that redefine their spaces. Watch how our attention to detail and quality craftsmanship have delighted families and transformed their everyday living.
-        </p>        
-        
-        <!-- Masonry Layout Container -->
-        <div class="masonry-layout">
-            <!-- Video Cards -->
-            <div class="video-card">
-                <video src="assets/images/videos/video1.mp4" controls></video>
-            </div>
-            <div class="video-card">
-                <video src="assets/images/videos/video2.mp4" controls></video>
-            </div>
-            <div class="video-card">
-                <video src="assets/images/videos/video4.mp4" controls></video>
-            </div>
-            <div class="video-card">
-                <video src="assets/images/videos/video5.mp4" controls></video>
-            </div>
-            <div class="video-card">
-                <video src="assets/images/videos/video6.mp4" controls></video>
-            </div>
-            <div class="video-card">
-                <video src="assets/images/videos/video3.mp4" controls></video>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Video Section End -->
+        <!-- Video Section Start -->
+        <section class="video-section py-5" style="background-color: #f5f5f5;">
+            <div class="container">
+                <h2 class="text-center mb-2">Watch Our Customers Share Their Experience</h2>
+                <p class="text-center mb-5" style="font-size: 1.1rem; color: #666;">
+                    Discover the difference our products have made in real homes, bringing warmth, style, and comfort to
+                    every room. Our customers love sharing their transformations, from elegant blinds to smart shades
+                    that redefine their spaces. Watch how our attention to detail and quality craftsmanship have
+                    delighted families and transformed their everyday living.
+                </p>
 
-<style>
-.masonry-layout {
-    column-count: 3;
-    column-gap: 1.5rem;
-}
+                <!-- Masonry Layout Container -->
+                <div class="masonry-layout">
+                    <!-- Video Cards -->
+                    <div class="video-card">
+                        <video src="assets/images/videos/video1.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="assets/images/videos/video2.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="assets/images/videos/video4.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="assets/images/videos/video5.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="assets/images/videos/video6.mp4" controls></video>
+                    </div>
+                    <div class="video-card">
+                        <video src="assets/images/videos/video3.mp4" controls></video>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Video Section End -->
 
-.video-card {
-    position: relative;
-    margin-bottom: 1.5rem;
-    overflow: hidden;
-    break-inside: avoid;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-    border-radius: 15px;
-}
+        <style>
+            .masonry-layout {
+                column-count: 3;
+                column-gap: 1.5rem;
+            }
 
-.video-card video {
-    width: 100%;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
-}
+            .video-card {
+                position: relative;
+                margin-bottom: 1.5rem;
+                overflow: hidden;
+                break-inside: avoid;
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                transition: transform 0.3s ease;
+                border-radius: 15px;
+            }
 
-.video-card:hover {
-    transform: scale(1.05);
-}
+            .video-card video {
+                width: 100%;
+                border-radius: 15px;
+                transition: transform 0.3s ease;
+            }
 
-@media (max-width: 992px) {
-    .masonry-layout {
-        column-count: 2;
-    }
-}
+            .video-card:hover {
+                transform: scale(1.05);
+            }
 
-@media (max-width: 576px) {
-    .masonry-layout {
-        column-count: 1;
-    }
-}
-</style>
+            @media (max-width: 992px) {
+                .masonry-layout {
+                    column-count: 2;
+                }
+            }
+
+            @media (max-width: 576px) {
+                .masonry-layout {
+                    column-count: 1;
+                }
+            }
+        </style>
 
 
 
@@ -254,10 +264,3 @@
 </body>
 
 </html>
-
-
-
-
-
-       
-     
