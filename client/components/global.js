@@ -1,8 +1,7 @@
 class Header extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
         <header class="main-header-three clearfix">
             <div class="main-header-three__top">
                 <div class="main-header-three__top-inner clearfix">
@@ -12,9 +11,15 @@ class Header extends HTMLElement {
                                 <div class="icon">
                                     <span class="icon-pin"></span>
                                 </div>
-                                <div class="text">
-                                    <p>Vancouver, Richmound, Maple Ridge, Langley</p>
+                               <div class="text">
+                                  <p>
+                                        <a href="https://www.google.com/maps?q=Vancouver" target="_blank">Vancouver</a>, 
+                                        <a href="https://www.google.com/maps?q=Richmond" target="_blank">Richmond</a>, 
+                                        <a href="/maple-ridge">Maple Ridge</a>, 
+                                        <a href="https://www.google.com/maps?q=Langley" target="_blank">Langley</a>
+                                    </p>
                                 </div>
+
                             </li>
                             <li>
                                 <div class="icon">
@@ -116,15 +121,14 @@ class Header extends HTMLElement {
             <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
         </div>
  `;
-    }
+  }
 }
-window.customElements.define('header-section', Header);
+window.customElements.define("header-section", Header);
 
 class MobNav extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
            <div class="mobile-nav__wrapper">
         <div class="mobile-nav__overlay mobile-nav__toggler"></div>
         <!-- /.mobile-nav__overlay -->
@@ -164,15 +168,14 @@ class MobNav extends HTMLElement {
         <!-- /.mobile-nav__content -->
     </div>
  `;
-    }
+  }
 }
-window.customElements.define('mob-navbar-section', MobNav);
+window.customElements.define("mob-navbar-section", MobNav);
 
 class Products extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
                     <section class="services-one services-three">
             <div class="services-one-bg-box">
                 <div class="services-one-bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"></div>
@@ -251,15 +254,14 @@ class Products extends HTMLElement {
             </div>
         </section>
  `;
-    }
+  }
 }
-window.customElements.define('products-section', Products);
+window.customElements.define("products-section", Products);
 
 class ProductSidebar extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `    
+  constructor() {
+    super();
+    this.innerHTML = `    
             <div class="sidebar">
                 <div class="sidebar__single sidebar__category">
                     <h3 class="sidebar__title">Products</h3>
@@ -302,15 +304,14 @@ class ProductSidebar extends HTMLElement {
             </div>
         
  `;
-    }
+  }
 }
-window.customElements.define('product-sidebar-section', ProductSidebar);
+window.customElements.define("product-sidebar-section", ProductSidebar);
 
 class ContactForm extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
         <section class="contact-one">
             <div class="container">
                 <div class="section-title text-center">
@@ -395,30 +396,28 @@ class ContactForm extends HTMLElement {
             </div>
         </section>
  `;
-    }
+  }
 }
-window.customElements.define('contact-form-section', ContactForm);
+window.customElements.define("contact-form-section", ContactForm);
 
 class Map extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
                <section class="google-map mt-5">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.4774748223267!2d-123.08710292351638!3d49.19109067137917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675a78ba4f4b9%3A0xb5785257892a4ea7!2s12520%20Vickers%20Way%2C%20Richmond%2C%20BC%20V6V%201H9!5e1!3m2!1sen!2sca!4v1728887865642!5m2!1sen!2sca"
                 class="google-map__one" allowfullscreen></iframe>
         </section>
  `;
-    }
+  }
 }
-window.customElements.define('map-section', Map);
+window.customElements.define("map-section", Map);
 
 class ServiceBadge extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
                     <section class="more-services-two mb-5">
             <div class="container">
                 <div class="row">
@@ -452,15 +451,14 @@ class ServiceBadge extends HTMLElement {
             </div>
         </section>
  `;
-    }
+  }
 }
-window.customElements.define('service-badge-section', ServiceBadge);
+window.customElements.define("service-badge-section", ServiceBadge);
 
 class Footer extends HTMLElement {
-    constructor() {
-        super();
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    this.innerHTML = `
         <footer class="site-footer site-footer-two">
             <div class="site-footer-bg" style="background-image: url(assets/images/backgrounds/site-footer-bg.jpg);">
             </div>
@@ -493,6 +491,11 @@ class Footer extends HTMLElement {
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/contact">Contact</a></li>
                                 </ul>
+                                <br>
+                                 <h3 class="footer-widget__title">Location</h3>
+                                <ul class="footer-widget__explore-list list-unstyled clearfix">
+                                    <li><a href="/maple-ridge">Maple Ridge</a></li>
+                                    </ul>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
@@ -565,17 +568,16 @@ class Footer extends HTMLElement {
             </div>
         </footer>
  `;
-    }
+  }
 }
-window.customElements.define('footer-section', Footer);
+window.customElements.define("footer-section", Footer);
 
 class Project extends HTMLElement {
-    constructor() {
-        super();
-        const img = this.getAttribute('img')
-        const projectName = this.getAttribute('projectName')
-        this.innerHTML =
-            `
+  constructor() {
+    super();
+    const img = this.getAttribute("img");
+    const projectName = this.getAttribute("projectName");
+    this.innerHTML = `
         <section class="blog-one">
             <div class="container">
                 <div class="row">
@@ -607,8 +609,6 @@ class Project extends HTMLElement {
             </div>
         </section>
  `;
-    }
+  }
 }
-window.customElements.define('project-section', Project);
-
-
+window.customElements.define("project-section", Project);
