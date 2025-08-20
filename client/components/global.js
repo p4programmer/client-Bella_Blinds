@@ -495,6 +495,7 @@ class Footer extends HTMLElement {
                                  <h3 class="footer-widget__title">Location</h3>
                                 <ul class="footer-widget__explore-list list-unstyled clearfix">
                                     <li><a href="/maple-ridge">Maple Ridge</a></li>
+                                    <li><a href="/chilliwack">Chilliwack</a></li>
                                     </ul>
                             </div>
                         </div>
